@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 import pandas as pd
 
-# Model load karo
+# Model load
 with open('model.pkl', 'rb') as f:
     model = pickle.load(f)
 
